@@ -9,8 +9,6 @@ import "swiper/css/pagination";
 
 import PlanCard from "./PlanCard";
 
-import classes from "./Plans.module.css";
-
 const plansData = [
   {
     image: {
@@ -71,7 +69,7 @@ const plansData = [
 
 const Plans = () => {
   return (
-    <section className={`${classes.plans} ${"section"}`}>
+    <section className="section">
       <div className="container">
         <h2 className="section_title">
           Best <span>vacation plan</span>
@@ -80,7 +78,7 @@ const Plans = () => {
           Plan your perfect vacation with our travel agency. Choose among
           hundreds of all-inclusive offers!{" "}
         </p>
-        <div className={classes.swiper_wrapper}>
+        <div>
           <Swiper
             pagination={{
               dynamicBullets: true,
