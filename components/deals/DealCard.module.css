@@ -18,6 +18,10 @@
   width: 100%;
 }
 
+.deal_card .image_wrapper img {
+  max-width: 100%;
+}
+
 /* .deal_card .image_wrapper .link_wrapper {
   position: absolute;
   top: 0;

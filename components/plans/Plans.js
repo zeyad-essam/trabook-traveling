@@ -65,11 +65,22 @@ const plansData = [
     duration: "7 Days Trip",
     rate: 4.5,
   },
+  {
+    image: {
+      url: "/plans/vienna-1.jpg",
+      width: 1000,
+      height: 1000,
+    },
+    title: "Vienna,Austria",
+    price: "3.6K",
+    duration: "6 Days Trip",
+    rate: 4.8,
+  },
 ];
 
 const Plans = () => {
   return (
-    <section className="section">
+    <section className="section" style={{ paddingTop: "0 !important" }}>
       <div className="container">
         <h2 className="section_title">
           Best <span>vacation plan</span>
@@ -88,11 +99,14 @@ const Plans = () => {
             spaceBetween={30}
             className="my_swiper"
             breakpoints={{
-              600: {
+              567: {
                 slidesPerView: 2,
               },
               992: {
                 slidesPerView: 3,
+              },
+              1200: {
+                slidesPerView: 4,
               },
             }}
           >
