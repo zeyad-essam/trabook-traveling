@@ -42,7 +42,7 @@ const HeroForm = () => {
               />
             </div>
           </div>
-          <button>Explore Now</button>
+          <button disabled>Explore Now</button>
         </form>
       </div>
     </div>
