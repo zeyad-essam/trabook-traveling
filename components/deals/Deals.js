@@ -86,9 +86,9 @@ const dealsData = [
       width: 1000,
       height: 1000,
     },
-    city: "London",
+    city: "Tokyo",
     rate: 4.8,
-    country: "UK",
+    country: "Japan",
     price: {
       beforeDiscount: 799,
       afterDiscount: 699,

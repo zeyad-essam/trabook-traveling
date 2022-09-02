@@ -26,7 +26,7 @@ const Informations = () => {
             </li>
             <li>
               <div className={classes.image_wrapper}>
-                <Image src="/money.png" width={96} height={96} priority />
+                <Image src="/money.png" width={94} height={96} priority />
               </div>
               <h3>Worth of Money</h3>
               <p>
