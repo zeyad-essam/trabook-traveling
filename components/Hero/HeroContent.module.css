@@ -1,0 +1,119 @@
+.hero_content {
+  margin-bottom: 70px;
+}
+
+.hero_content .content_inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 991px) {
+  .hero_content .content_inner {
+    grid-template-columns: 1fr;
+  }
+}
+
+.hero_content .content_inner .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+@media (max-width: 1200px) {
+  .hero_content .content_inner .text {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero_content .content_inner .text {
+    grid-row-start: 2;
+    text-align: center;
+  }
+}
+
+.hero_content .content_inner .text h1 {
+  color: #222222;
+  font-weight: 700;
+  font-size: 64px;
+  font-family: "Volkhov";
+  line-height: 70px;
+}
+
+@media (max-width: 1200px) {
+  .hero_content .content_inner .text h1 {
+    font-size: 47px;
+    line-height: 55px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero_content .content_inner .text h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 567px) {
+  .hero_content .content_inner .text h1 {
+    font-size: 26px;
+    line-height: 35px;
+  }
+}
+
+.hero_content .content_inner .text h1 span {
+  color: var(--primary-color);
+}
+
+.hero_content .content_inner .text p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #666666;
+}
+
+@media (max-width: 1200px) {
+  .hero_content .content_inner .text p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+.hero_content .content_inner .text a {
+  width: 178px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  color: var(--primary-color);
+  font-weight: 500;
+  font-size: 18px;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 991px) {
+  .hero_content .content_inner .text a {
+    margin: auto;
+  }
+}
+
+.hero_content .content_inner .text a:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.hero_content .content_inner .image {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 991px) {
+  .hero_content .content_inner .image {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}

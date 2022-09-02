@@ -1,0 +1,127 @@
+.plan_card {
+  background: #fefcfb;
+  margin: 2px;
+  box-shadow: 0 0 0 1px rgba(121, 121, 121, 0.1);
+  border-radius: 17px;
+  overflow: hidden;
+  user-select: none;
+}
+
+.plan_card .image_wrapper {
+  position: relative;
+  display: flex;
+  border-radius: 17px;
+  overflow: hidden;
+}
+
+.plan_card .image_wrapper a {
+  display: flex;
+}
+
+.plan_card .image_wrapper span {
+  width: 100%;
+}
+
+/* 
+.plan_card .image_wrapper .link_wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: all 0.6s ease;
+  transition-delay: 0.2s;
+}
+
+.plan_card .image_wrapper .link_wrapper a {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 130px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  background: #fa7436;
+  border-radius: 8px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  transition-delay: 0.2s;
+}
+
+.plan_card:hover .image_wrapper .link_wrapper {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.plan_card:hover .image_wrapper .link_wrapper a {
+  opacity: 1;
+  bottom: 40px;
+}
+
+@media (max-width: 991px) {
+  .plan_card .image_wrapper .link_wrapper {
+    display: none;
+  }
+} */
+
+.plan_card .content_wrapper {
+  padding: 15px 15px 20px;
+}
+
+.plan_card .content_wrapper .upper_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.plan_card .content_wrapper .upper_content h3 {
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #222222;
+}
+
+.plan_card .content_wrapper .upper_content .price {
+  font-weight: 600;
+  font-size: 22px;
+  color: #fa7436;
+}
+
+.plan_card .content_wrapper .bottom_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.plan_card .content_wrapper .bottom_content .duration {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.plan_card .content_wrapper .bottom_content .duration span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #666666;
+}
+
+.plan_card .content_wrapper .bottom_content .rate {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.plan_card .content_wrapper .bottom_content .rate span {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #666666;
+}
